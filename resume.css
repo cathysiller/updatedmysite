@@ -22,13 +22,11 @@ header {
 .pic {
   margin: 0 auto;
   margin-top:10px;
-  
   border-radius:10em;
   height:9em;
   width:9em;
   background-image: url(http://img.photobucket.com/albums/v461/_babyjustaskme_/profile-512_1-1.png);
   background-size: 100% auto;
-  
   border: 2px solid #e0e0e0;
   transition : all 0.5s linear;
   
@@ -132,7 +130,6 @@ header p {
   font-family: 'Open Sans', sans-serif;
   font-variant:small-caps;
   font-weight:600;
-  letter-spacing: 1px; 
   color: #212121;
   font-size:0.975em;
   text-align:center;
@@ -195,11 +192,11 @@ header p {
 
 .content-text ul li a {
   text-decoration: none;
-  color: #0277bd;
+  color: #ff7496;
 }
 
 .content-text ul li a:hover {
-  color:#4fc3f7;
+  text-decoration: underline;
 }
 
 .work-listing p {
